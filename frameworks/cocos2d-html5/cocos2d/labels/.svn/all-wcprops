@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/labels
+END
+CCLabelAtlas.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlas.js
+END
+CCLabelAtlasCanvasRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasCanvasRenderCmd.js
+END
+CCLabelBMFont.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFont.js
+END
+CCLabelBMFontCanvasRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontCanvasRenderCmd.js
+END
+CCLabelAtlasWebGLRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasWebGLRenderCmd.js
+END
+CCLabelBMFontWebGLRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontWebGLRenderCmd.js
+END

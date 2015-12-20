@@ -1,4 +1,6 @@
-
+/**
+ * Created by linhao on 15/12/11.
+ */
 
 var StartScene = cc.Scene.extend({
     backgroundLayer : null,
@@ -12,7 +14,6 @@ var StartScene = cc.Scene.extend({
         this._super();
         this.startLayer = new StartLayer();
         this.addChild(this.startLayer, 0);
-
     }
 });
 

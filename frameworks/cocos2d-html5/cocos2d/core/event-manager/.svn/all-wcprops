@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/event-manager
+END
+CCEventExtension.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventExtension.js
+END
+CCEvent.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEvent.js
+END
+CCTouch.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCTouch.js
+END
+CCEventListener.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventListener.js
+END
+CCEventManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventManager.js
+END

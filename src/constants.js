@@ -74,6 +74,8 @@ var ScreenSize = {
     height : 1008
 };
 
+var DANGER_LINE_HEIGHT = 897.5;
+
 var ObjectId = {
 
     Hero  : 1001,

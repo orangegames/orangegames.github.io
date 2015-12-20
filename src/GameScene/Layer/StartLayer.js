@@ -1,5 +1,5 @@
 /**
- * Created by linhao on 15/11/7.
+ * Created by linhao on 15/12/11.
  */
 
 var StartLayer = cc.Layer.extend({
@@ -123,7 +123,7 @@ var StartLayer = cc.Layer.extend({
 
         //6.9
         this._startText = new cc.Sprite(res.start_text_png);
-        this._startText.setPosition(ScreenSize.width*0.5, ScreenSize.height*0.67);
+        this._startText.setPosition(ScreenSize.width*0.5, ScreenSize.height*0.70);
         this.addChild(this._startText, 10);
         this._startText.setOpacity(0);
 
@@ -152,8 +152,6 @@ var StartLayer = cc.Layer.extend({
     },
     startBattle: function (sender) {
 
-
         cc.director.runScene(new GameScene());
-        this._gameSceneController.reset();
     }
 });

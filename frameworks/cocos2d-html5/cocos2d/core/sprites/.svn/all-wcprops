@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites
+END
+CCSpriteBatchNode.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNode.js
+END
+CCSpriteBatchNodeCanvasRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNodeCanvasRenderCmd.js
+END
+CCAnimation.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCAnimation.js
+END
+CCSpriteFrame.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrame.js
+END
+CCAnimationCache.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCAnimationCache.js
+END
+CCSpriteBatchNodeWebGLRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNodeWebGLRenderCmd.js
+END
+SpritesPropertyDefine.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/SpritesPropertyDefine.js
+END
+CCSpriteFrameCache.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js
+END
+CCSprite.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSprite.js
+END
+CCSpriteCanvasRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteCanvasRenderCmd.js
+END
+CCBakeSprite.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCBakeSprite.js
+END
+CCSpriteWebGLRenderCmd.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ComboCity/!svn/ver/1/Code/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteWebGLRenderCmd.js
+END
