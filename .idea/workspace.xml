@@ -2,7 +2,917 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b896641-e123-416e-abb0-6b8f3760c98c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cocos2d-js-v3.9-customized.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/.gitignore.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/AUTHORS.txt.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/Base64Images.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/CCBoot.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/CCDebugger.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/CHANGELOG.txt.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/README.mdown.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/bower.json.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/jsb_apis.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/.svn/text-base/moduleConfig.json.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/Base64Images.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/CCBoot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/CCDebugger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/CHANGELOG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/README.mdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/text-base/CCAction.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/text-base/CCActionCamera.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/text-base/CCActionCatmullRom.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/text-base/CCActionEase.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/text-base/CCActionInstant.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/text-base/CCActionInterval.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/.svn/text-base/CCActionTween.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCAction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionCamera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionCatmullRom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionEase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionInstant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionInterval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionTween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/.svn/text-base/CCActionGrid.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/.svn/text-base/CCActionGrid3D.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/.svn/text-base/CCActionPageTurn3D.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/.svn/text-base/CCActionTiledGrid.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/CCActionGrid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/CCActionGrid3D.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/CCActionPageTurn3D.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/CCActionTiledGrid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/audio/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/audio/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/audio/.svn/text-base/CCAudio.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/audio/CCAudio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/.svn/text-base/CCClippingNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/.svn/text-base/CCClippingNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/.svn/text-base/CCClippingNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/CCClippingNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/CCClippingNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/CCClippingNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/.svn/text-base/ZipUtils.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/.svn/text-base/base64.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/.svn/text-base/gzip.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/.svn/text-base/zlib.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/ZipUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/gzip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/compression/zlib.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCActionManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCCamera.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCConfiguration.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCDirector.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCDirectorCanvas.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCDirectorWebGL.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCDrawingPrimitivesCanvas.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCDrawingPrimitivesWebGL.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/CCScheduler.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/.svn/text-base/cocos2d_externs.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCActionManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCCamera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCConfiguration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirectorCanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirectorWebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDrawingPrimitivesCanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDrawingPrimitivesWebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCScheduler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/text-base/BaseNodesPropertyDefine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/text-base/CCAtlasNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/text-base/CCAtlasNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/text-base/CCAtlasNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/text-base/CCNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/text-base/CCNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/.svn/text-base/CCNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/BaseNodesPropertyDefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCAtlasNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCAtlasNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCAtlasNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/cocoa/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/cocoa/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/cocoa/.svn/text-base/CCAffineTransform.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/cocoa/.svn/text-base/CCGeometry.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/cocoa/CCAffineTransform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/cocoa/CCGeometry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/cocos2d_externs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/.svn/text-base/CCEvent.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/.svn/text-base/CCEventExtension.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/.svn/text-base/CCEventListener.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/.svn/text-base/CCEventManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/.svn/text-base/CCTouch.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventExtension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventListener.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCTouch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/.svn/text-base/CCLabelTTF.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/.svn/text-base/CCLabelTTFCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/.svn/text-base/CCLabelTTFWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/.svn/text-base/LabelTTFPropertyDefine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTF.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTFCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTFWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/LabelTTFPropertyDefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/.svn/text-base/CCLayer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/.svn/text-base/CCLayerCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/.svn/text-base/CCLayerWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/CCLayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/CCLayerCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/CCLayerWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCClass.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCCommon.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCConfig.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCEGLView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCInputExtension.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCInputManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCLoaders.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCMacro.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCSAXParser.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCScreen.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCTypes.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCTypesPropertyDefine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCTypesWebGL.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/CCVisibleRect.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/.svn/text-base/miniFramework.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCClass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCCommon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCEGLView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCInputExtension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCInputManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCLoaders.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCMacro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCSAXParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCScreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCTypesPropertyDefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCTypesWebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCVisibleRect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/miniFramework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/.svn/text-base/RendererCanvas.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/.svn/text-base/RendererWebGL.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/RendererCanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/RendererWebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/.svn/text-base/CCLoaderScene.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/.svn/text-base/CCScene.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/CCLoaderScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/CCScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCAnimation.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCAnimationCache.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCBakeSprite.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSprite.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSpriteBatchNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSpriteBatchNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSpriteBatchNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSpriteCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSpriteFrame.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSpriteFrameCache.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/CCSpriteWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/.svn/text-base/SpritesPropertyDefine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCAnimation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCAnimationCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCBakeSprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/SpritesPropertyDefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/.svn/text-base/CCPointExtension.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/.svn/text-base/CCVertex.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/.svn/text-base/TransformUtils.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/CCPointExtension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/CCVertex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/support/TransformUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/.svn/text-base/CCTexture2D.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/.svn/text-base/CCTextureAtlas.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/.svn/text-base/CCTextureCache.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/.svn/text-base/TexturesPropertyDefine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/.svn/text-base/TexturesWebGL.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTexture2D.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTextureAtlas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTextureCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/TexturesPropertyDefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/TexturesWebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/utils/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/utils/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/utils/.svn/text-base/BinaryLoader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/utils/BinaryLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/.svn/text-base/CCGrabber.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/.svn/text-base/CCGrid.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/CCGrabber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/CCGrid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/SIMDPolyfill.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/aabb.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/mat3.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/mat4.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/mat4SIMD.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/plane.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/quaternion.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/ray2.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/utility.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/vec2.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/vec3.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/vec3SIMD.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/.svn/text-base/vec4.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/SIMDPolyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/aabb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/gl/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/gl/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/gl/.svn/text-base/mat4stack.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/gl/.svn/text-base/matrix.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/gl/mat4stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/gl/matrix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/mat3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/mat4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/mat4SIMD.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/plane.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/quaternion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/ray2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/base.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/index.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kernel-template.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmMat4AreEqual.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmMat4Assign.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmMat4Inverse.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmMat4IsIdentity.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmMat4LookAt.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmMat4Multiply.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmMat4Transpose.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/kmVec3TransformCoord.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/run.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/.svn/text-base/run_browser.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kernel-template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmMat4AreEqual.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmMat4Assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmMat4Inverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmMat4IsIdentity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmMat4LookAt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmMat4Multiply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmMat4Transpose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/kmVec3TransformCoord.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/simd_benchmark/run_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/utility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/vec2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/vec3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/vec3SIMD.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/kazmath/vec4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/text-base/CCLabelAtlas.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/text-base/CCLabelAtlasCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/text-base/CCLabelAtlasWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/text-base/CCLabelBMFont.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/text-base/CCLabelBMFontCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/.svn/text-base/CCLabelBMFontWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/menus/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/menus/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/menus/.svn/text-base/CCMenu.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/menus/.svn/text-base/CCMenuItem.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/menus/CCMenuItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/.svn/text-base/CCMotionStreak.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/.svn/text-base/CCMotionStreakWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/.svn/text-base/CCNodeGrid.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/.svn/text-base/CCNodeGridWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/CCNodeGrid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/CCNodeGridWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/.svn/text-base/CCParallaxNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/.svn/text-base/CCParallaxNodeRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/CCParallaxNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/CCParallaxNodeRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCPNGReader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCParticleBatchNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCParticleBatchNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCParticleBatchNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCParticleExamples.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCParticleSystem.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCParticleSystemCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCParticleSystemWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/.svn/text-base/CCTIFFReader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCPNGReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleBatchNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleBatchNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleBatchNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleExamples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleSystemCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleSystemWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCTIFFReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/text-base/CCPhysicsDebugNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/text-base/CCPhysicsDebugNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/text-base/CCPhysicsDebugNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/text-base/CCPhysicsSprite.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/text-base/CCPhysicsSpriteCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/.svn/text-base/CCPhysicsSpriteWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsDebugNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsDebugNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsDebugNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsSprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsSpriteCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsSpriteWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/.svn/text-base/CCActionProgressTimer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/.svn/text-base/CCProgressTimer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/.svn/text-base/CCProgressTimerCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/.svn/text-base/CCProgressTimerWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCActionProgressTimer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimerCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimerWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/.svn/text-base/CCRenderTexture.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/.svn/text-base/CCRenderTextureCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/.svn/text-base/CCRenderTextureWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/CCRenderTexture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/CCRenderTextureCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/CCRenderTextureWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/.svn/text-base/CCGLProgram.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/.svn/text-base/CCGLStateCache.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/.svn/text-base/CCShaderCache.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/.svn/text-base/CCShaders.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/CCGLProgram.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/CCGLStateCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/CCShaderCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shaders/CCShaders.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/.svn/text-base/CCDrawNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/.svn/text-base/CCDrawNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/.svn/text-base/CCDrawNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/CCDrawNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/CCDrawNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/CCDrawNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/.svn/text-base/CCIMEDispatcher.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/.svn/text-base/CCTextFieldTTF.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/CCIMEDispatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/CCTextFieldTTF.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/text-base/CCTGAlib.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/text-base/CCTMXLayer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/text-base/CCTMXLayerCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/text-base/CCTMXLayerWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/text-base/CCTMXObjectGroup.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/text-base/CCTMXTiledMap.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/.svn/text-base/CCTMXXMLParser.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTGAlib.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXLayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXLayerCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXLayerWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXObjectGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXTiledMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXXMLParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/.svn/text-base/CCTransition.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/.svn/text-base/CCTransitionPageTurn.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/.svn/text-base/CCTransitionProgress.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/CCTransition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/CCTransitionPageTurn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/CCTransitionProgress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCBAnimationManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCBKeyframe.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCBReader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCBReaderUtil.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCBRelativePositioning.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCBSequence.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCBValue.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCControlLoader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCNodeLoader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCNodeLoaderLibrary.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/.svn/text-base/CCSpriteLoader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCBAnimationManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCBKeyframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCBReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCBReaderUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCBRelativePositioning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCBSequence.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCBValue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCControlLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCNodeLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCNodeLoaderLibrary.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccb-reader/CCSpriteLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccpool/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccpool/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccpool/.svn/text-base/CCPool.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccpool/CCPool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/CCProtectedNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/CCProtectedNodeCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/CCProtectedNodeWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/UIScale9Sprite.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/UIScale9SpriteCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/UIScale9SpriteWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/UIWidget.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/.svn/text-base/UIWidgetRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9Sprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9SpriteCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9SpriteWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIWidget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIWidgetRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UIHBox.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UILayout.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UILayoutCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UILayoutComponent.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UILayoutManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UILayoutParameter.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UILayoutWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UIRelativeBox.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/.svn/text-base/UIVBox.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UIHBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayoutCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayoutComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayoutManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayoutParameter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayoutWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UIRelativeBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UIVBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/system/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/system/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/system/.svn/text-base/CocosGUI.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/system/.svn/text-base/UIHelper.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/system/CocosGUI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/system/UIHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UIButton.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UICheckBox.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UIImageView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UILoadingBar.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UIRichText.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UISlider.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UIText.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UITextAtlas.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UITextBMFont.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UITextField.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UIVideoPlayer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/.svn/text-base/UIWebView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UICheckBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIImageView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UILoadingBar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIRichText.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UISlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIText.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UITextAtlas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UITextBMFont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UITextField.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIVideoPlayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIWebView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/.svn/text-base/UIListView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/.svn/text-base/UIPageView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/.svn/text-base/UIScrollView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/UIListView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/UIPageView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/UIScrollView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/.svn/text-base/CocoStudio.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/CocoStudio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/.svn/text-base/CCActionFrame.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/.svn/text-base/CCActionManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/.svn/text-base/CCActionNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/.svn/text-base/CCActionObject.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionFrame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionObject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/.svn/text-base/CCArmature.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/.svn/text-base/CCArmatureCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/.svn/text-base/CCArmatureWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/.svn/text-base/CCBone.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCArmature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCArmatureCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCArmatureWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCBone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/.svn/text-base/CCArmatureAnimation.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/.svn/text-base/CCProcessBase.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/.svn/text-base/CCTween.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/CCArmatureAnimation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/CCProcessBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/animation/CCTween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/datas/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/datas/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/datas/.svn/text-base/CCDatas.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/datas/CCDatas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/text-base/CCBatchNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/text-base/CCDecorativeDisplay.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/text-base/CCDisplayFactory.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/text-base/CCDisplayManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/text-base/CCSkin.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/text-base/CCSkinCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/.svn/text-base/CCSkinWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCBatchNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCDecorativeDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCDisplayFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCDisplayManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCSkin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCSkinCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCSkinWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/physics/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/physics/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/physics/.svn/text-base/CCColliderDetector.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/physics/CCColliderDetector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/text-base/CCArmatureDataManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/text-base/CCArmatureDefine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/text-base/CCDataReaderHelper.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/text-base/CCSpriteFrameCacheHelper.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/text-base/CCTransformHelp.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/text-base/CCTweenFunction.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/.svn/text-base/CCUtilMath.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCArmatureDataManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCArmatureDefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCDataReaderHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCSpriteFrameCacheHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTweenFunction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCUtilMath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/text-base/CCComAttribute.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/text-base/CCComAudio.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/text-base/CCComController.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/text-base/CCComRender.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/text-base/CCComponent.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/.svn/text-base/CCComponentContainer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/CCComAttribute.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/CCComAudio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/CCComController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/CCComRender.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/CCComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/components/CCComponentContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/.svn/text-base/load.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/text-base/action-1.x.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/text-base/action-2.x.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/text-base/compatible.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/text-base/scene-1.x.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/text-base/timelineParser-1.x.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/text-base/timelineParser-2.x.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/.svn/text-base/uiParser-1.x.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/action-1.x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/action-2.x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/compatible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/scene-1.x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/timelineParser-1.x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/timelineParser-2.x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/uiParser-1.x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/text-base/ActionTimeline.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/text-base/CCBoneNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/text-base/CCSkeletonNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/text-base/CCSkinNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/text-base/Frame.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/.svn/text-base/Timeline.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/ActionTimeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/CCBoneNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/CCSkeletonNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/CCSkinNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/Frame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/Timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/.svn/text-base/ObjectFactory.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/.svn/text-base/TriggerBase.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/.svn/text-base/TriggerMng.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/.svn/text-base/TriggerObj.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/ObjectFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/TriggerBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/TriggerMng.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/trigger/TriggerObj.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/.svn/text-base/CCEditBox.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/.svn/text-base/CCdomNode.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/CCEditBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/CCdomNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControl.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlButton.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlColourPicker.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlHuePicker.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlPotentiometer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlSaturationBrightnessPicker.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlSlider.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlStepper.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlSwitch.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCControlUtils.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCInvocation.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCMenuPassive.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCScale9Sprite.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCScale9SpriteCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/.svn/text-base/CCScale9SpriteWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlColourPicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlHuePicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlPotentiometer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlSaturationBrightnessPicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlStepper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlSwitch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCControlUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCInvocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCMenuPassive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCScale9Sprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCScale9SpriteCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCScale9SpriteWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/.svn/text-base/CCScrollView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/.svn/text-base/CCScrollViewCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/.svn/text-base/CCScrollViewWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/.svn/text-base/CCSorting.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/.svn/text-base/CCTableView.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollViewCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollViewWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCSorting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCTableView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/.svn/text-base/CCSkeleton.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/.svn/text-base/CCSkeletonAnimation.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/.svn/text-base/CCSkeletonCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/.svn/text-base/CCSkeletonWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/.svn/text-base/Spine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeleton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeletonAnimation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeletonCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeletonWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/Spine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/box2d/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/box2d/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/box2d/.svn/text-base/box2d.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/box2d/box2d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/chipmunk/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/chipmunk/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/chipmunk/.svn/text-base/chipmunk.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/chipmunk/chipmunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/.svn/text-base/GAFBoot.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/.svn/text-base/GAFMacros.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/.svn/text-base/gaf_viewer.css.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/.svn/text-base/gaf_viewer.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/.svn/text-base/gaf_viewer.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/GAFBoot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/GAFMacros.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFAsset.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFAssetPreload.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFAtlasLoader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFDataReader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFLoader.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFMask.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFMaskProto.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFObject.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFShaderManager.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFShaders.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFSprite.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFSpriteCanvasRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFSpriteProto.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFSpriteWebGLRenderCmd.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFTags.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFTextField.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFTimeLine.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/.svn/text-base/GAFTimeLineProto.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFAsset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFAssetPreload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFAtlasLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFDataReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFMask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFMaskProto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFObject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFShaderManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFShaders.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSpriteCanvasRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSpriteProto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSpriteWebGLRenderCmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFTags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFTextField.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFTimeLine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFTimeLineProto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/gaf_viewer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/gaf_viewer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/gaf_viewer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/.svn/text-base/Plugin.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/Plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/platform/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/platform/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/platform/.svn/text-base/facebook.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/platform/.svn/text-base/facebook_sdk.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/platform/facebook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/platform/facebook_sdk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/socketio/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/socketio/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/socketio/.svn/text-base/socket.io.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/socketio/.svn/text-base/socket.io.min.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/socketio/socket.io.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/socketio/socket.io.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/jsb_apis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/.svn/text-base/LICENSE_cocos2d-html5.txt.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/.svn/text-base/LICENSE_cocos2d-x.txt.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/.svn/text-base/LICENSE_zlib.js.txt.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/LICENSE_cocos2d-html5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/LICENSE_cocos2d-x.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/licenses/LICENSE_zlib.js.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/moduleConfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/.svn/text-base/index.html.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/.svn/text-base/main.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/.svn/text-base/project.json.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/project.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/.svn/prop-base/favicon.ico.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/.svn/text-base/favicon.ico.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/.svn/text-base/loading.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/prop-base/CloseNormal.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/prop-base/CloseSelected.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/prop-base/HelloWorld.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/text-base/CloseNormal.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/text-base/CloseSelected.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/.svn/text-base/HelloWorld.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/CloseNormal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/CloseSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/HD/HelloWorld.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/prop-base/CloseNormal.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/prop-base/CloseSelected.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/prop-base/HelloWorld.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/text-base/CloseNormal.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/text-base/CloseSelected.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/.svn/text-base/HelloWorld.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/CloseNormal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/CloseSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/Normal/HelloWorld.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/res/loading.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/src/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/src/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/src/.svn/text-base/myApp.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/src/.svn/text-base/resource.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/src/myApp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/template/src/resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/text-base/XmlCheck.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/text-base/build.xml.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/text-base/core4cc.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/text-base/genBuildXml.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/text-base/publish.js.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/.svn/text-base/readme for tools.txt.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/XmlCheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/compiler/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/compiler/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/compiler/.svn/prop-base/compiler.jar.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/compiler/.svn/text-base/compiler.jar.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/compiler/compiler.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/core4cc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/genBuildXml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/jsdoc_toolkit/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/jsdoc_toolkit/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/jsdoc_toolkit/.svn/text-base/build.xml.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/jsdoc_toolkit/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/publish.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/readme for tools.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/template/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/template/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/template/.svn/text-base/build.xml.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/template/build.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameScene/Layer/ReviveLayer.js" afterPath="$PROJECT_DIR$/src/GameScene/Layer/ReviveLayer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="orangeio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +946,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReviveLayer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReviveLayer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameScene/Layer/ReviveLayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="930">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.8755187" vertical-offset="207" max-vertical-offset="930">
+              <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -76,11 +986,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51502144" vertical-offset="0" max-vertical-offset="699">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="540">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -108,16 +1018,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CCActionInterval.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionInterval.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="48897" max-vertical-offset="53235">
-              <caret line="2586" column="3" selection-start-line="2586" selection-start-column="3" selection-end-line="2586" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameScene.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameScene/GameScene.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,8 +1037,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="435" />
-    <option name="y" value="28" />
+    <option name="x" value="491" />
+    <option name="y" value="23" />
     <option name="width" value="1749" />
     <option name="height" value="1368" />
   </component>
@@ -304,15 +1204,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="435" y="28" width="1749" height="1368" extended-state="0" />
-    <editor active="false" />
+    <frame x="491" y="23" width="1749" height="1368" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2048611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2048611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -407,14 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionInterval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48897" max-vertical-offset="53235">
-          <caret line="2586" column="3" selection-start-line="2586" selection-start-column="3" selection-end-line="2586" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameScene/GameScene.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="435">
@@ -460,25 +1352,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cocos2d-js-v3.9-customized.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameScene/StartScene.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -493,6 +1371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="420">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,6 +1379,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,29 +1388,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1523" max-vertical-offset="1920">
           <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionInterval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48897" max-vertical-offset="53235">
-          <caret line="2586" column="3" selection-start-line="2586" selection-start-column="3" selection-end-line="2586" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameScene/Layer/ReviveLayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="930">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/platform/facebook_sdk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1863" max-vertical-offset="2340">
-          <caret line="133" column="485" selection-start-line="133" selection-start-column="485" selection-end-line="133" selection-end-column="485" />
         </state>
       </provider>
     </entry>
@@ -592,11 +1449,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51502144" vertical-offset="0" max-vertical-offset="699">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="540">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameScene/Layer/ReviveLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8755187" vertical-offset="207" max-vertical-offset="930">
+          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

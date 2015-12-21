@@ -34,15 +34,15 @@ var ReviveLayer = cc.Layer.extend({
 
     },
     reviveAction: function (sender) {
-        this._bg2.setOpacity(1);
+        this._bg2.setOpacity(255);
 
-        var ac1 = cc.delayTime(0.3);
+        var ac1 = cc.delayTime(0.1);
         var ac2 = cc.fadeOut(0);
-        var ac3 = cc.delayTime(0.3);
+        var ac3 = cc.delayTime(0.1);
         var ac4 = cc.fadeIn(0);
-        var ac5 = cc.delayTime(0.3);
+        var ac5 = cc.delayTime(0.1);
         var ac6 = cc.fadeOut(0);
-        var ac7 = cc.delayTime(0.8);
+        var ac7 = cc.delayTime(0.2);
 
         var bl = cc.blink(0.5, 2);
 
