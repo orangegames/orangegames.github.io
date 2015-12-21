@@ -91,12 +91,6 @@ cc.LoadingScene = cc.Scene.extend({
         //this._label.setString(tmpStr);
     },
 
-    /**
-     * init with resources
-     * @param {Array} resources
-     * @param {Function|String} cb
-     * @param {Object} target
-     */
     initWithResources: function (resources, cb, target) {
         if(cc.isString(resources))
             resources = [resources];
@@ -120,19 +114,7 @@ cc.LoadingScene = cc.Scene.extend({
             });
     }
 });
-/**
- * <p>cc.LoaderScene.preload can present a loaderScene with download progress.</p>
- * <p>when all the resource are downloaded it will invoke call function</p>
- * @param resources
- * @param cb
- * @param target
- * @returns {cc.LoaderScene|*}
- * @example
- * //Example
- * cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new HelloWorldScene());
-    }, this);
- */
+
 cc.LoadingScene.preload = function(resources, cb, target){
     var _cc = cc;
     if(!_cc.loaderScene) {
