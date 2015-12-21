@@ -58,7 +58,7 @@ cc.LoadingScene = cc.Scene.extend({
 
         //loading percent
         var dudu = self._dudu = new cc.Sprite(res.loading_dudu_png);
-        dudu.setPosition(ScreenSize.width*0.2, ScreenSize.height *0.57);
+        dudu.setPosition(ScreenSize.width*0.15, ScreenSize.height *0.57);
         bgLayer.addChild(this._dudu, 10);
         return true;
     },
@@ -107,7 +107,7 @@ cc.LoadingScene = cc.Scene.extend({
             function (result, count, loadedCount) {
                 var percent = loadedCount / count;
                 percent = Math.min(percent, 100);
-                self._dudu.setPosition(ScreenSize.width*(2 + 6 * percent)/10, self._dudu.getPosition().y);
+                self._dudu.setPosition(ScreenSize.width*(1.5 + 5.5 * percent)/10, self._dudu.getPosition().y);
             }, function () {
                 if (self.cb)
                     self.cb.call(self.target);

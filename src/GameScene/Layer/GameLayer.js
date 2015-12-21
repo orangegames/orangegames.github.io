@@ -15,9 +15,18 @@ var GameLayer = cc.Layer.extend({
     _addPillTime : 3,
     ctor:function () {
         this._super();
+        this.loadConfig();
         this.loadBackground();
         this.bindTouchListener();
         return true;
+    },
+    loadConfig : function() {
+        this._viruses = [];
+        this._pills = [];
+        this._score = 0;
+        this._isRevived = false;
+        this._pause = false;
+        this._time = 0;
     },
     loadBackground : function(){
         //ground
