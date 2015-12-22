@@ -59,6 +59,6 @@ var GameOverLayer = cc.Layer.extend({
     },
     shareGame: function (sender) {
 
-        WeixinApi.share(WeChartData,WeChartCallbacks);
+        WeixinApi.shareToTimeline(WeChartData,WeChartCallbacks);
     }
 });
