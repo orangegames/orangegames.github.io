@@ -138,7 +138,7 @@ var StartLayer = cc.Layer.extend({
         var menu = new cc.Menu(button);
         menu.setPosition(ScreenSize.width*0.5, ScreenSize.height*0.16);
         this.addChild(menu);
-        button.setOpacity(0);
+        //button.setOpacity(0);
         button.setScale(0.1);
 
         var buttonDelayTime = cc.delayTime(9.9);

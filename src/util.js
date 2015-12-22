@@ -31,3 +31,9 @@ util.getRandomNumber = function(Min,Max)
     var Rand = Math.random();
     return(Min + Math.floor(Rand * Range));
 };
+
+util.increaseTouchArea = function(rect) {
+    var result = cc.rect(rect.x - ACTOR_TOUCH_ADD, rect.y - ACTOR_TOUCH_ADD, rect.width + 2 * ACTOR_TOUCH_ADD, rect.height + 2 * ACTOR_TOUCH_ADD);
+    return result;
+
+};
