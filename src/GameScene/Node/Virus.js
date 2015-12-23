@@ -3,8 +3,7 @@
  */
 
 
-var Virus = cc.Sprite.extend({
-    _speed: 0,
+var Virus = BaseActor.extend({
     _score: 0,
     ctor : function(speed, score){
         this._speed = speed;

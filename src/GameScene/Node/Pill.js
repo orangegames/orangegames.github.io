@@ -3,8 +3,7 @@
  */
 
 
-var Pill = cc.Sprite.extend({
-    _speed : 0,
+var Pill = BaseActor.extend({
 
     ctor : function(speed){
         this._speed = speed;
@@ -15,5 +14,9 @@ var Pill = cc.Sprite.extend({
         var position = this.getPosition();
         position = cc.p(position.x, position.y + dt * this._speed);
         this.setPosition(position);
+    },
+    clear : function(target,callback){
+        this._status = ActorStatus.Death;
+        this.playAction(43,53,false, target,callback);
     }
 });

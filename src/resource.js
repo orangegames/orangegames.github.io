@@ -22,8 +22,10 @@ var res = {
     virus_3_png : "res/virus_3.png",
     wind_png : "res/wind.png",
     //particle plist
-    pt_leap_plist : "res/leap.plist"
+    clear_ac_plist : "res/clear_ac.plist",
+    clear_ac_png : "res/clear_ac.png",
 
+    clear_wav : "res/clear.wav"
 };
 
 var g_resources = [
