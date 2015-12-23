@@ -43,10 +43,6 @@ cc.LoadingScene = cc.Scene.extend({
     init : function(){
         var self = this;
 
-        //logo
-        var logoWidth = 160;
-        var logoHeight = 200;
-
         // bg
         var bgLayer = self._bgLayer = new cc.LayerColor(cc.color(32, 32, 32, 255));
         self.addChild(bgLayer, 0);
@@ -58,7 +54,7 @@ cc.LoadingScene = cc.Scene.extend({
 
         //loading percent
         var dudu = self._dudu = new cc.Sprite(res.loading_dudu_png);
-        dudu.setPosition(ScreenSize.width*0.15, ScreenSize.height *0.57);
+        dudu.setPosition(ScreenSize.width*0.15, ScreenSize.height *0.46);
         bgLayer.addChild(this._dudu, 10);
         return true;
     },

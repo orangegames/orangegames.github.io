@@ -1,10 +1,10 @@
 
 var ScreenSize = {
-    width : 672,
-    height : 1008
+    width : 960,
+    height : 1440
 };
 
-var DANGER_LINE_HEIGHT = 897.5;
+var DANGER_LINE_HEIGHT = 1282;
 
 var ACTOR_TOUCH_ADD = 30;
 

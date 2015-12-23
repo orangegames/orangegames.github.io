@@ -15,7 +15,7 @@ var GameOverLayer = cc.Layer.extend({
     },
     loadUI : function(){
         //ground
-        this._bg1 = new cc.Sprite(res.gameover_bg_3_png);
+        this._bg1 = new cc.Sprite(res.gameover_bg_png);
         this._bg1.setPosition(ScreenSize.width / 2, ScreenSize.height / 2);
         this.addChild(this._bg1, 0);
 
@@ -24,7 +24,6 @@ var GameOverLayer = cc.Layer.extend({
         scoreLabel.setPosition(ScreenSize.width*0.50, ScreenSize.height * 0.72);
         scoreLabel.setColor(cc.color.BLACK);
         this.addChild(scoreLabel, 1);
-
 
         var rangeLabel = new cc.LabelTTF("您排在 第213581名", "Arial", 40);
         rangeLabel.setPosition(ScreenSize.width*0.50, ScreenSize.height * 0.33);
@@ -52,7 +51,7 @@ var GameOverLayer = cc.Layer.extend({
 
     retry: function (sender) {
 
-        cc.director.runScene(new GameScene());
+        cc.director.runScene(new StartScene());
     },
     download: function (sender) {
 

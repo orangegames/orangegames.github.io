@@ -6,6 +6,7 @@ var StartLayer = cc.Layer.extend({
     _bg : null,
     _startText : null,
     _ship : null,
+    _earth : null,
     _virus1 : null,
     _virus2 : null,
     _virus3 : null,
@@ -54,6 +55,16 @@ var StartLayer = cc.Layer.extend({
 
         ac = cc.sequence(ac, scale1, scale2,shipDelayTime,shipFadeOut);
         this._ship.runAction(ac);
+
+        //0 earth
+        this._earth = new cc.Sprite(res.start_earth_png);
+        this._earth.setPosition(ScreenSize.width/2, -this._earth.getContentSize().height / 2);
+        this.addChild(this._earth, 2);
+
+        var earthDelayTime = cc.delayTime(0.4);
+        var earthMove = cc.moveTo(1.6, ScreenSize.width/2, this._earth.getContentSize().height / 2);
+        var earthac = cc.sequence(earthDelayTime, earthMove);
+        this._earth.runAction(earthac);
 
 
         //2.4
@@ -137,7 +148,7 @@ var StartLayer = cc.Layer.extend({
 
         var menu = new cc.Menu(button);
         menu.setPosition(ScreenSize.width*0.5, ScreenSize.height*0.16);
-        this.addChild(menu);
+        this.addChild(menu,11);
         //button.setOpacity(0);
         button.setScale(0.1);
 
