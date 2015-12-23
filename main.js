@@ -18,3 +18,5 @@ cc.game.onStart = function(){
     }, this);
 };
 cc.game.run();
+
+//"external/WeixinApi.js"

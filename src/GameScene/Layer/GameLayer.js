@@ -10,6 +10,8 @@ var GameLayer = cc.Layer.extend({
     _isRevived : false,
     _pause : false,
     _time : 0,
+    _generateTimes : 0,
+    _generatePillTimes : 0,
 
     _addVirusTime : 0,
     _addPillTime : 3,
@@ -27,6 +29,8 @@ var GameLayer = cc.Layer.extend({
         this._isRevived = false;
         this._pause = false;
         this._time = 0;
+        this._generateTimes = 0;
+        this._generatePillTimes = 0;
     },
     loadBackground : function(){
         //ground
@@ -105,11 +109,29 @@ var GameLayer = cc.Layer.extend({
             this._addPillTime--;
             if(this._addPillTime <= 0){
                 this.addPill();
+                this._generatePillTimes++;
             }else{
-                this.addVirus();
-            }
-        }
+                var addCount = 1;
+                if(this._time >= 20){
+                    addCount = util.getRandomNumber(1, 3);
+                }else if(this._time >= 5){
+                    addCount = util.getRandomNumber(1,2);
+                }
 
+                if(addCount === 1){
+                    this.addVirus();
+                }else if(addCount === 2){
+                    this.addVirus(0, ScreenSize.width*0.5);
+                    this.addVirus(ScreenSize.width*0.5, ScreenSize.width);
+                }else{
+                    this.addVirus(0, ScreenSize.width*0.5);
+                    this.addVirus(ScreenSize.width*0.33, ScreenSize.width);
+                    this.addVirus(ScreenSize.width*0.67, ScreenSize.width);
+                }
+
+            }
+            this._generateTimes++;
+        }
 
         this._scoreLabel.setString(this._score);
     },
@@ -131,15 +153,32 @@ var GameLayer = cc.Layer.extend({
             max  = 5;
         }
         this._addPillTime = util.getRandomNumber(min, max);
+
+        if((this._generatePillTimes % 2) === 0){
+            var minX = 0;
+            var maxX = ScreenSize.width;
+            if(x <= ScreenSize.width/2){
+                minX = x + pill.getContentSize().width/2;
+            }else{
+                maxX = x - pill.getContentSize().width/2;
+            }
+            this.addVirus(minX, maxX);
+        }
     },
-    addVirus:function() {
+    addVirus:function(minX, maxX) {
         var score = Math.ceil(this._time / 10);
         if(score > 10){
             score = 10;
         }
         var speed = DANGER_LINE_HEIGHT/2.5 + this._time * 20;
         var virus = new Virus(speed, score);
-        var x = util.getRandomFloat(virus.getContentSize().width/2, ScreenSize.width - virus.getContentSize().width/2);
+        var x = 0;
+        if(minX === undefined || maxX === undefined){
+            x = util.getRandomFloat(virus.getContentSize().width/2, ScreenSize.width - virus.getContentSize().width/2);
+        }else{
+            x = util.getRandomFloat(minX + virus.getContentSize().width/2, maxX - virus.getContentSize().width/2);
+        }
+
         var y = -virus.getContentSize().height/2;
         virus.setPosition(x , y);
         this.addChild(virus, 1);
