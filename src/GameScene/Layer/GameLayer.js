@@ -94,7 +94,7 @@ var GameLayer = cc.Layer.extend({
 
         this._addVirusTime -= dt;
         if(this._addVirusTime <= 0){
-            var addTime = 1.56 - this._time/120;
+            var addTime = 1.2 - this._time/80;
             addTime += util.getRandomFloat(-0.2, 0.2);
             if(addTime < 0.05){
                 addTime = 0.05;
@@ -113,7 +113,7 @@ var GameLayer = cc.Layer.extend({
         this._scoreLabel.setString(this._score);
     },
     addPill:function() {
-        var speed = DANGER_LINE_HEIGHT/4 + this._time * 10;
+        var speed = DANGER_LINE_HEIGHT/2.5 + this._time * 20;
         var pill = new Pill(speed);
         var x = util.getRandomFloat(pill.getContentSize().width/2, ScreenSize.width - pill.getContentSize().width/2);
         var y = -pill.getContentSize().height/2;
@@ -136,7 +136,7 @@ var GameLayer = cc.Layer.extend({
         if(score > 10){
             score = 10;
         }
-        var speed = DANGER_LINE_HEIGHT/4 + this._time * 10;
+        var speed = DANGER_LINE_HEIGHT/2.5 + this._time * 20;
         var virus = new Virus(speed, score);
         var x = util.getRandomFloat(virus.getContentSize().width/2, ScreenSize.width - virus.getContentSize().width/2);
         var y = -virus.getContentSize().height/2;
@@ -185,8 +185,10 @@ var GameLayer = cc.Layer.extend({
 
         for(var idx = 0; idx < target._pills.length; idx++) {
             var pill = target._pills[idx];
+            var rect = pill.getBoundingBox();
+            rect = util.increaseTouchArea(rect);
 
-            if(cc.rectContainsPoint(pill.getBoundingBox(), location)){
+            if(cc.rectContainsPoint(rect, location)){
                 target.gameOver();
                 return true;
             }
@@ -194,7 +196,9 @@ var GameLayer = cc.Layer.extend({
 
         for(var idx = 0; idx < target._viruses.length; idx++) {
             var virus = target._viruses[idx];
-            if(cc.rectContainsPoint(virus.getBoundingBox(), location)){
+            var rect = virus.getBoundingBox();
+            rect = util.increaseTouchArea(rect);
+            if(cc.rectContainsPoint(rect, location)){
                 virus.removeFromParent();
                 target._viruses.splice(idx, 1);
                 target._score += virus._score;

@@ -52,7 +52,7 @@ var GameOverLayer = cc.Layer.extend({
 
     retry: function (sender) {
 
-        cc.director.runScene(new StartScene());
+        cc.director.runScene(new GameScene());
     },
     download: function (sender) {
 
