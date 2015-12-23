@@ -17,9 +17,9 @@
         "src/GameScene/Layer/GameLayer.js",
         "src/GameScene/Layer/ReviveLayer.js",
         "src/GameScene/Layer/GameOverLayer.js",
+        "src/GameScene/Node/BaseActor.js",
         "src/GameScene/Node/Pill.js",
         "src/GameScene/Node/Virus.js",
-        "src/GameScene/Node/BaseActor.js",
         "src/GameScene/LoadingScene.js",
 
         "external/WeixinApi.js"

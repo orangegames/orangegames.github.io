@@ -2,7 +2,6 @@
  * Created by linhao on 15/4/2.
  */
 
-
 var Pill = BaseActor.extend({
 
     ctor : function(speed){
@@ -14,9 +13,5 @@ var Pill = BaseActor.extend({
         var position = this.getPosition();
         position = cc.p(position.x, position.y + dt * this._speed);
         this.setPosition(position);
-    },
-    clear : function(target,callback){
-        this._status = ActorStatus.Death;
-        this.playAction(43,53,false, target,callback);
     }
 });

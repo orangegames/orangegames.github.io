@@ -5,8 +5,8 @@
 var BaseActor = cc.Sprite.extend({
     _speed : 0,
 
-    ctor : function(speed){
-        this._super(res.pill_png);
+    ctor : function(aTexture){
+        this._super(aTexture);
         return true;
     },
     update:function(dt){
@@ -17,15 +17,28 @@ var BaseActor = cc.Sprite.extend({
     clear : function(target,callback){
         var animFrames = [];
         for (var i = 0; i <= 2; i++) {
-            var str = "#clear_ac"+ i + ".png";
+            var str = "clear_ac"+ i + ".png";
             var frame = cc.spriteFrameCache.getSpriteFrame(str);
             animFrames.push(frame);
         }
         var animation = new cc.Animation(animFrames, 0.1);
         var ac1 = new cc.Animate(animation);
-        var ac2 = cc.callFunc(callback, target);
-        var action = new cc.sequence(ac1, ac2);
+        var ac2 = cc.callFunc(this.removeSelf, this);
+        var action = null;
+
+        if (target === undefined || callback === undefined){
+            action = cc.sequence(ac1, ac2);
+        }else{
+            var ac3 = cc.callFunc(callback, target);
+            action = cc.sequence(ac1, ac2, ac3);
+        }
 
         this.runAction(action);
+
+        cc.audioEngine.playEffect(res.clear_wav, false);
+    },
+    removeSelf : function(sender){
+        this.removeFromParent();
     }
+
 });

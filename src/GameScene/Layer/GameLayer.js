@@ -61,7 +61,7 @@ var GameLayer = cc.Layer.extend({
             var pill = this._pills[idx];
             var topy = pill.getPosition().y + pill.getContentSize().height/2;
             if(topy >= DANGER_LINE_HEIGHT){
-                pill.removeFromParent();
+                pill.clear();
                 this._pills.splice(idx, 1);
                 idx--;
             }
@@ -71,9 +71,10 @@ var GameLayer = cc.Layer.extend({
             var virus = this._viruses[idx];
             var topy = virus.getPosition().y + virus.getContentSize().height/2;
             if(topy >= DANGER_LINE_HEIGHT){
-                virus.removeFromParent();
+                this._pause = true;
+                virus.clear(this, this.gameOver);
                 this._viruses.splice(idx, 1);
-                this.gameOver();
+
                 return;
             }
         }
@@ -144,7 +145,7 @@ var GameLayer = cc.Layer.extend({
         this.addChild(virus, 1);
         this._viruses.push(virus);
     },
-    gameOver:function() {
+    gameOver:function(sender) {
         this._pause = true;
 
         if(this._isRevived){
@@ -189,7 +190,8 @@ var GameLayer = cc.Layer.extend({
             rect = util.increaseTouchArea(rect);
 
             if(cc.rectContainsPoint(rect, location)){
-                target.gameOver();
+                target._pause = true;
+                pill.clear(target, target.gameOver);
                 return true;
             }
         }
@@ -199,7 +201,7 @@ var GameLayer = cc.Layer.extend({
             var rect = virus.getBoundingBox();
             rect = util.increaseTouchArea(rect);
             if(cc.rectContainsPoint(rect, location)){
-                virus.removeFromParent();
+                virus.clear();
                 target._viruses.splice(idx, 1);
                 target._score += virus._score;
                 return true;
