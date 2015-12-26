@@ -2,7 +2,7 @@
  * Created by linhao on 15/12/11.
  */
 
-var StartLayer = cc.Layer.extend({
+var StartLayer = cc.LayerColor.extend({
     _bg : null,
     _startText : null,
     _ship : null,
@@ -13,16 +13,16 @@ var StartLayer = cc.Layer.extend({
     _wind : null,
     _leap : null,
     ctor:function () {
-        this._super();
+        this._super(cc.color(255 ,255, 2555, 255), ScreenSize.width, ScreenSize.height);
         this.loadBackground();
         return true;
     },
     loadBackground : function(){
 
         //ground
-        this._bg = new cc.Sprite(res.start_bg_png);
-        this._bg.setPosition(ScreenSize.width / 2, ScreenSize.height / 2);
-        this.addChild(this._bg, 0);
+        //this._bg = new cc.Sprite(res.start_bg_png);
+        //this._bg.setPosition(ScreenSize.width / 2, ScreenSize.height / 2);
+        //this.addChild(this._bg, 0);
     },
     onEnter:function () {
         this._super();
@@ -149,7 +149,7 @@ var StartLayer = cc.Layer.extend({
         var menu = new cc.Menu(button);
         menu.setPosition(ScreenSize.width*0.5, ScreenSize.height*0.16);
         this.addChild(menu,11);
-        //button.setOpacity(0);
+        button.setOpacity(0);
         button.setScale(0.1);
 
         var buttonDelayTime = cc.delayTime(9.9);

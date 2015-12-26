@@ -18,8 +18,8 @@ cc.game.onStart = function(){
             var end = Math.floor(Math.random()*10000);
             fid = String(time) + String(end);
             var len = fid.length;
-            var start = len - 11;
-            fid = fid.substr(start, 11);
+            var start = len - 10;
+            fid = fid.substr(start, 10);
             cc.sys.localStorage.setItem("fid_key", fid);
         }
 
