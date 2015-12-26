@@ -2,11 +2,12 @@
  * Created by linhao on 15/12/11.
  */
 
-var GameOverLayer = cc.Layer.extend({
+var GameOverLayer = cc.LayerColor.extend({
     _score: 0,
+    _rankIdx: 0,
     ctor:function (score) {
         this._score = score;
-        this._super();
+        this._super(cc.color(255 ,255, 2555, 255), ScreenSize.width, ScreenSize.height);
         this.loadConfig();
         this.loadUI();
         return true;
@@ -28,40 +29,45 @@ var GameOverLayer = cc.Layer.extend({
         this.addChild(scoreLabel, 1);
 
 
-        var xhr = cc.loader.getXMLHttpRequest();
-        var fid = cc.sys.localStorage.getItem("fid_key");
-
-        fid = "57905433098";
-        var returnUrl = "http://orangegames.github.io/index.html";
-        //var returnUrl = window.location.href;
-
-        var returnUrl = encodeURIComponent(returnUrl);
-        var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fid + "&return_url=" + returnUrl + "&score=" + this._score;
-
-        xhr.open("GET", requesturl, true);
-
-        //xhr.open("POST", requesturl);
-        //set Content-type "text/plain;charset=UTF-8" to post plain text
-        //xhr.setRequestHeader("Content-Type","text/plain;charset=UTF-8");
 
 
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status <= 207)) {
-                var httpStatus = xhr.statusText;
-                var responseText = xhr.responseText;
-                var array = JSON.parse(responseText);
-                cc.log("11");
+        var rank = cc.sys.localStorage.getItem("rank_mine");
+        var rank1Img = cc.sys.localStorage.getItem("rank1_img");
+        var rank1Score = cc.sys.localStorage.getItem("rank1_score");
+        var rank1Name = cc.sys.localStorage.getItem("rank1_name");
+        var rank2Img = cc.sys.localStorage.getItem("rank2_img");
+        var rank2Score = cc.sys.localStorage.getItem("rank2_score");
+        var rank2Name = cc.sys.localStorage.getItem("rank2_name");
+        var rank3Img = cc.sys.localStorage.getItem("rank3_img");
+        var rank3Score = cc.sys.localStorage.getItem("rank3_score");
+        var rank3Name = cc.sys.localStorage.getItem("rank3_name");
 
-            }
-        };
-        xhr.send();
-
-        var LeaderboardInfo = [{"name": "喵的鱼", "score": "987654321"},{"name": "远方的霾", "score": "66554433"},{"name": "王子的拉轰", "score": "63651"}];
+        var LeaderboardInfo = [{"name": rank1Name, "score": rank1Score, "img": rank1Img},{"name": rank2Name, "score": rank2Score, "img": rank2Img},{"name": rank3Name, "score": rank3Score, "img": rank3Img}];
         //Leaderboard
+
+        var self = this;
+
+
         for(var idx = 0; idx < 3; idx++){
-            var avatar = new cc.Sprite(res.avatar_png);
-            avatar.setPosition(ScreenSize.width*0.21, ScreenSize.height *( 0.56 - idx*0.078));
-            this.addChild(avatar, 1);
+            self._rankIdx = idx;
+
+            if(idx === 0){
+                cc.loader.loadImg(LeaderboardInfo[idx]["img"],{isCrossOrigin : false },function(res,tex){
+                    self.loadImg(tex, 0);
+                });
+            }else if(idx === 1){
+                cc.loader.loadImg(LeaderboardInfo[idx]["img"],{isCrossOrigin : false },function(res,tex){
+                    self.loadImg(tex, 1);
+                });
+            }else{
+                cc.loader.loadImg(LeaderboardInfo[idx]["img"],{isCrossOrigin : false },function(res,tex){
+                    self.loadImg(tex, 2);
+                });
+            }
+
+            //var avatar = new cc.Sprite(rank1Img);
+            //avatar.setPosition(ScreenSize.width*0.21, ScreenSize.height *( 0.56 - idx*0.078));
+            //this.addChild(avatar, 1);
 
             var nameLabel = new cc.LabelTTF(LeaderboardInfo[idx]["name"], "Arial", 60);
             nameLabel.setPosition(ScreenSize.width*0.28, ScreenSize.height * ( 0.56 - idx*0.078));
@@ -77,7 +83,7 @@ var GameOverLayer = cc.Layer.extend({
         }
         //this.addRank("喵的鱼", "987654321", ScreenSize.height * )
 
-        var rangeLabel = new cc.LabelTTF("您排在 第213581名", "Arial", 60);
+        var rangeLabel = new cc.LabelTTF("您排在 第"+rank+"名", "Arial", 60);
         rangeLabel.setPosition(ScreenSize.width*0.50, ScreenSize.height * 0.33);
         rangeLabel.setColor(cc.color.BLACK);
         this.addChild(rangeLabel, 1);
@@ -99,6 +105,19 @@ var GameOverLayer = cc.Layer.extend({
         menu3.setPosition(ScreenSize.width*0.75, ScreenSize.height*0.12);
         this.addChild(menu3, 1);
 
+    },
+    loadImg: function (img, idx) {
+        var self = this;
+        var texture2d  = new cc.Texture2D();
+        texture2d.initWithElement(img);
+        texture2d.handleLoadedTexture();
+        var logoWidth = img.width;
+        var logoHeight = img.height;
+        var avatar = new cc.Sprite(texture2d);
+        avatar.setScaleX(96/logoWidth);
+        avatar.setScaleY(96/logoHeight);
+        avatar.setPosition(ScreenSize.width*0.21, ScreenSize.height *( 0.56 - idx*0.078));
+        self.addChild(avatar, 1);
     },
     addRank: function (name, score, y) {
 
@@ -131,3 +150,5 @@ var GameOverLayer = cc.Layer.extend({
         //WeixinApi.shareToTimeline(WeChartData,WeChartCallbacks);
     }
 });
+
+

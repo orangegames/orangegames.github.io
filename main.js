@@ -5,7 +5,6 @@ cc.game.onStart = function(){
     var logintagStr = cc.sys.localStorage.getItem("login_tag");
     var logintag = logintagStr ? parseInt(logintagStr) : 0;
 
-    //logintag = 1;
     if(logintag === 0){
         cc.sys.localStorage.setItem("login_tag", 1);
 
@@ -18,13 +17,16 @@ cc.game.onStart = function(){
             var time = myDate.getTime();
             var end = Math.floor(Math.random()*10000);
             fid = String(time) + String(end);
+            var len = fid.length;
+            var start = len - 11;
+            fid = fid.substr(start, 11);
             cc.sys.localStorage.setItem("fid_key", fid);
         }
 
-        fid = "57905433098";
+        //fid = "111";
 
-        //var returnUrl = window.location.href;
-        var returnUrl = "http://orangegames.github.io/index.html";
+        var returnUrl = window.location.href;
+        //var returnUrl = "http://orangegames.github.io/index.html";
 
         returnUrl = encodeURIComponent(returnUrl);
         window.location.href = "http://www.yinshuiyu.com/api/wx_login?fuid=" + fid + "&id=2&return_url=" + returnUrl;

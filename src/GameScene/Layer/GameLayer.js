@@ -2,7 +2,7 @@
  * Created by linhao on 15/12/11.
  */
 
-var GameLayer = cc.Layer.extend({
+var GameLayer = cc.LayerColor.extend({
     _viruses : [],
     _pills : [],
     _scoreLabel : null,
@@ -16,7 +16,7 @@ var GameLayer = cc.Layer.extend({
     _addVirusTime : 0,
     _addPillTime : 3,
     ctor:function () {
-        this._super();
+        this._super(cc.color(255 ,255, 2555, 255), ScreenSize.width, ScreenSize.height);;
         this.loadConfig();
         this.loadBackground();
         this.bindTouchListener();
@@ -188,7 +188,8 @@ var GameLayer = cc.Layer.extend({
         this._pause = true;
 
         if(this._isRevived){
-            cc.director.runScene(new GameOverScene(this._score));
+            cc.sys.localStorage.setItem("my_score", String(this._score));
+            this.requestData();
         }else{
             this._isRevived = true;
 
@@ -209,6 +210,29 @@ var GameLayer = cc.Layer.extend({
             onTouchEnded    : this.onTouchEnded
         });
         cc.eventManager.addListener(listener, this);
+    },
+    requestData : function(){
+        var fuid = cc.sys.localStorage.getItem("fid_key");
+
+        //fuid = "111";
+        //var returnUrl = "http://orangegames.github.io/index.html";
+        var returnUrl = window.location.href;
+
+        var returnUrl = encodeURIComponent(returnUrl);
+        //var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fuid + "&return_url=" + returnUrl + "&score=" + this._score;
+        var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fuid + "&score=" + this._score;
+
+
+
+        var jsonp=document.createElement("script");
+        jsonp.type="text/javascript";
+        jsonp.src=requesturl;
+
+        //if(document.getElementsByTagName("head")[0].hasChildNodes()){
+        //    document.getElementsByTagName("head")[0].removeChild(jsonp);
+        //}
+
+        document.getElementsByTagName("head")[0].appendChild(jsonp);//跨域调用JSON数据
     },
     // 事件[触摸开始]
     onTouchBegan: function (touch, event) {
@@ -261,3 +285,22 @@ var GameLayer = cc.Layer.extend({
         //cc.log("onTouchEnded");
     }
 });
+
+urljson = function(o) {
+    //o=eval(’(’+o+’)’);
+
+    cc.sys.localStorage.setItem("rank_mine", o["rank"]);
+    cc.sys.localStorage.setItem("rank1_img", o["top_score"][0]["icon"]);
+    cc.sys.localStorage.setItem("rank1_score", o["top_score"][0]["score"]);
+    cc.sys.localStorage.setItem("rank1_name", o["top_score"][0]["username"]);
+    cc.sys.localStorage.setItem("rank2_img", o["top_score"][1]["icon"]);
+    cc.sys.localStorage.setItem("rank2_score", o["top_score"][1]["score"]);
+    cc.sys.localStorage.setItem("rank2_name", o["top_score"][1]["username"]);
+    cc.sys.localStorage.setItem("rank3_img", o["top_score"][2]["icon"]);
+    cc.sys.localStorage.setItem("rank3_score", o["top_score"][2]["score"]);
+    cc.sys.localStorage.setItem("rank3_name", o["top_score"][2]["username"]);
+
+    var score = parseInt(cc.sys.localStorage.getItem("my_score"));
+    cc.director.runScene(new GameOverScene(score));
+
+};

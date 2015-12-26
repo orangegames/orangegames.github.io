@@ -2,13 +2,13 @@
  * Created by linhao on 15/12/11.
  */
 
-var ReviveLayer = cc.Layer.extend({
+var ReviveLayer = cc.LayerColor.extend({
     _bg1 : null,
     _bg2 : null,
     _target : null,
     ctor:function (target) {
         this._target = target;
-        this._super();
+        this._super(cc.color(255 ,255, 2555, 255), ScreenSize.width, ScreenSize.height);
         this.loadBackground();
         return true;
     },
