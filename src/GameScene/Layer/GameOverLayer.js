@@ -31,13 +31,19 @@ var GameOverLayer = cc.Layer.extend({
         var xhr = cc.loader.getXMLHttpRequest();
         var fid = cc.sys.localStorage.getItem("fid_key");
 
-        fid = "14510957905433056";
+        fid = "14510957905433098";
         var returnUrl = window.location.href;
 
         var returnUrl = encodeURIComponent(returnUrl);
         var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fid + "&return_url=" + returnUrl + "&score=" + this._score;
 
-        xhr.open("GET", requesturl, true);
+        //xhr.open("GET", requesturl, true);
+
+        xhr.open("POST", requesturl);
+        //set Content-type "text/plain;charset=UTF-8" to post plain text
+        xhr.setRequestHeader("Content-Type","text/plain;charset=UTF-8");
+
+
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status <= 207)) {
                 var httpStatus = xhr.statusText;

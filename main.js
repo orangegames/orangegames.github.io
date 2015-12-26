@@ -21,7 +21,7 @@ cc.game.onStart = function(){
             cc.sys.localStorage.setItem("fid_key", fid);
         }
 
-        fid = "14510957905433056";
+        fid = "14510957905433098";
 
         var returnUrl = window.location.href;
 
