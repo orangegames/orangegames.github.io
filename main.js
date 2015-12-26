@@ -5,6 +5,7 @@ cc.game.onStart = function(){
     var logintagStr = cc.sys.localStorage.getItem("login_tag");
     var logintag = logintagStr ? parseInt(logintagStr) : 0;
 
+    logintag = 1;
     if(logintag === 0){
         cc.sys.localStorage.setItem("login_tag", 1);
 
@@ -34,6 +35,18 @@ cc.game.onStart = function(){
         cc.sys.localStorage.setItem("login_tag", 0);
         if(!cc.sys.isNative && document.getElementById("cocosLoading")) //If referenced loading.js, please remove it
             document.body.removeChild(document.getElementById("cocosLoading"));
+
+        var sys = cc.sys;
+
+        if(sys.os === sys.OS_IOS || sys.os === sys.OS_OSX){
+
+            cc.view.enableRetina(true);
+
+        }else{
+
+            cc.view.enableRetina(false);
+
+        }
 
         // Pass true to enable retina display, disabled by default to improve performance
         cc.view.enableRetina(false);
