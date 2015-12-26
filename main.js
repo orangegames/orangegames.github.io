@@ -1,6 +1,34 @@
 
 
 cc.game.onStart = function(){
+
+    var logintagStr = cc.sys.localStorage.getItem("login_tag");
+    var logintag = logintagStr ? parseInt(logintagStr) : 0;
+
+
+    if(logintag === 0){
+        cc.sys.localStorage.setItem("login_tag", 1);
+
+        var fid = cc.sys.localStorage.getItem("fid_key");
+
+        if(fid){
+
+        }else{
+            var myDate = new Date();
+            var time = myDate.getTime();
+            var end = Math.floor(Math.random()*10000);
+            fid = String(time) + String(end);
+        }
+
+        var returnUrl = window.location.href;
+
+        returnUrl = encodeURIComponent(returnUrl);
+        window.location.href = "http://www.yinshuiyu.com/api/wx_login?fid=" + fid + "&return_url=" + returnUrl;
+        return;
+    }
+
+
+    cc.sys.localStorage.setItem("login_tag", 0);
     if(!cc.sys.isNative && document.getElementById("cocosLoading")) //If referenced loading.js, please remove it
         document.body.removeChild(document.getElementById("cocosLoading"));
 
