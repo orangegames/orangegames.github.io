@@ -31,17 +31,18 @@ var GameOverLayer = cc.Layer.extend({
         var xhr = cc.loader.getXMLHttpRequest();
         var fid = cc.sys.localStorage.getItem("fid_key");
 
-        fid = "14510957905433098";
-        var returnUrl = window.location.href;
+        fid = "57905433098";
+        var returnUrl = "http://orangegames.github.io/index.html";
+        //var returnUrl = window.location.href;
 
         var returnUrl = encodeURIComponent(returnUrl);
         var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fid + "&return_url=" + returnUrl + "&score=" + this._score;
 
-        //xhr.open("GET", requesturl, true);
+        xhr.open("GET", requesturl, true);
 
-        xhr.open("POST", requesturl);
+        //xhr.open("POST", requesturl);
         //set Content-type "text/plain;charset=UTF-8" to post plain text
-        xhr.setRequestHeader("Content-Type","text/plain;charset=UTF-8");
+        //xhr.setRequestHeader("Content-Type","text/plain;charset=UTF-8");
 
 
         xhr.onreadystatechange = function () {
