@@ -18,7 +18,10 @@ cc.game.onStart = function(){
             var time = myDate.getTime();
             var end = Math.floor(Math.random()*10000);
             fid = String(time) + String(end);
+            cc.sys.localStorage.setItem("fid_key", fid);
         }
+
+        fid = "14510957905433056";
 
         var returnUrl = window.location.href;
 

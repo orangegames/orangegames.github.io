@@ -27,6 +27,28 @@ var GameOverLayer = cc.Layer.extend({
         scoreLabel.setColor(cc.color.BLACK);
         this.addChild(scoreLabel, 1);
 
+
+        var xhr = cc.loader.getXMLHttpRequest();
+        var fid = cc.sys.localStorage.getItem("fid_key");
+
+        fid = "14510957905433056";
+        var returnUrl = window.location.href;
+
+        var returnUrl = encodeURIComponent(returnUrl);
+        var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fid + "&return_url=" + returnUrl + "&score=" + this._score;
+
+        xhr.open("GET", requesturl, true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status <= 207)) {
+                var httpStatus = xhr.statusText;
+                var responseText = xhr.responseText;
+                var array = JSON.parse(responseText);
+                cc.log("11");
+
+            }
+        };
+        xhr.send();
+
         var LeaderboardInfo = [{"name": "喵的鱼", "score": "987654321"},{"name": "远方的霾", "score": "66554433"},{"name": "王子的拉轰", "score": "63651"}];
         //Leaderboard
         for(var idx = 0; idx < 3; idx++){
