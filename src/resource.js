@@ -24,7 +24,6 @@ var res = {
     //particle plist
     clear_ac_plist : "res/clear_ac.plist",
     clear_ac_png : "res/clear_ac.png",
-    avatar_png : "res/avatar.png",
 
     clear_wav : "res/clear.wav"
 };

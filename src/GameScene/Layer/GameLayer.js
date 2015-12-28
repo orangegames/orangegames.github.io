@@ -100,9 +100,10 @@ var GameLayer = cc.LayerColor.extend({
         this._addVirusTime -= dt;
         if(this._addVirusTime <= 0){
             var addTime = 1.2 - this._time/80;
+
             addTime += util.getRandomFloat(-0.2, 0.2);
-            if(addTime < 0.05){
-                addTime = 0.05;
+            if(addTime < 0.08){
+                addTime = 0.08;
             }
             this._addVirusTime = addTime;
 
@@ -136,7 +137,10 @@ var GameLayer = cc.LayerColor.extend({
         this._scoreLabel.setString(this._score);
     },
     addPill:function() {
-        var speed = DANGER_LINE_HEIGHT/2.5 + this._time * 20;
+        var speed = START_SPEED + this._time * 8;
+        if(speed > MAX_SPEED){
+            speed = MAX_SPEED;
+        }
         var pill = new Pill(speed);
         var x = util.getRandomFloat(pill.getContentSize().width/2, ScreenSize.width - pill.getContentSize().width/2);
         var y = -pill.getContentSize().height/2;
@@ -170,7 +174,10 @@ var GameLayer = cc.LayerColor.extend({
         if(score > 10){
             score = 10;
         }
-        var speed = DANGER_LINE_HEIGHT/2.5 + this._time * 20;
+        var speed = START_SPEED + this._time * 8;
+        if(speed > MAX_SPEED){
+            speed = MAX_SPEED;
+        }
         var virus = new Virus(speed, score);
         var x = 0;
         if(minX === undefined || maxX === undefined){
@@ -198,6 +205,20 @@ var GameLayer = cc.LayerColor.extend({
         }
     },
     revive:function() {
+        //remove virus and pill
+        for(var idx = 0; idx < this._pills.length; idx++){
+            var pill = this._pills[idx];
+            this._pills.splice(idx, 1);
+            pill.clear();
+            idx--;
+        }
+
+        for(var idx = 0; idx < this._viruses.length; idx++){
+            var virus = this._viruses[idx];
+            this._viruses.splice(idx, 1);
+            virus.clear();
+            idx--;
+        }
         this._pause = false;
     },
     bindTouchListener : function(){

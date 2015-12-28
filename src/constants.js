@@ -8,6 +8,12 @@ var DANGER_LINE_HEIGHT = 1282;
 
 var ACTOR_TOUCH_ADD = 30;
 
+var DANGER_LINE_HEIGHT = 1282;
+
+var START_SPEED = 752;
+
+var MAX_SPEED = 920;
+
 var WeChartData = {
     "appId": "wx735041db0b1acfa8", // 服务号可以填写appId
     "imgUrl": "http://upyun.cocimg.com/cocoachina/cocos_logo.png",
