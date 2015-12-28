@@ -99,9 +99,15 @@ var GameLayer = cc.LayerColor.extend({
 
         this._addVirusTime -= dt;
         if(this._addVirusTime <= 0){
-            var addTime = 1.2 - this._time/80;
+            var addTime = 0.08;
+            if(this._time > 20){
+                addTime = 1.2 - this._time/80;
+            }else{
+                addTime = 0.95 - (this._time - 20)/70;
+            }
 
             addTime += util.getRandomFloat(-0.2, 0.2);
+
             if(addTime < 0.08){
                 addTime = 0.08;
             }

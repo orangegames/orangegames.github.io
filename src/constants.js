@@ -6,7 +6,7 @@ var ScreenSize = {
 
 var DANGER_LINE_HEIGHT = 1282;
 
-var ACTOR_TOUCH_ADD = 30;
+var ACTOR_TOUCH_ADD = 40;
 
 var DANGER_LINE_HEIGHT = 1282;
 
