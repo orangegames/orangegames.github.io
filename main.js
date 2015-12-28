@@ -5,7 +5,7 @@ cc.game.onStart = function(){
     var logintagStr = cc.sys.localStorage.getItem("login_tag");
     var logintag = logintagStr ? parseInt(logintagStr) : 0;
 
-    logintag = 1;
+    //logintag = 1;
     if(logintag === 0){
         cc.sys.localStorage.setItem("login_tag", 1);
 
@@ -48,10 +48,10 @@ cc.game.onStart = function(){
 
         }
 
-        alert(window.devicePixelRatio);
+        //alert(window.devicePixelRatio);
 
         // Pass true to enable retina display, disabled by default to improve performance
-        cc.view.enableRetina(false);
+        //cc.view.enableRetina(false);
         // Adjust viewport meta
         cc.view.adjustViewPort(true);
         // Setup the resolution policy and design resolution size
