@@ -5,7 +5,7 @@ cc.game.onStart = function(){
     var logintagStr = cc.sys.localStorage.getItem("login_tag");
     var logintag = logintagStr ? parseInt(logintagStr) : 0;
 
-    logintag = 1;
+    //logintag = 1;
     if(logintag === 0){
         cc.sys.localStorage.setItem("login_tag", 1);
 
