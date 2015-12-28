@@ -48,6 +48,8 @@ cc.game.onStart = function(){
 
         }
 
+        alert(window.devicePixelRatio);
+
         // Pass true to enable retina display, disabled by default to improve performance
         cc.view.enableRetina(false);
         // Adjust viewport meta
