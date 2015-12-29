@@ -28,9 +28,6 @@ var GameOverLayer = cc.LayerColor.extend({
         scoreLabel.setColor(cc.color.BLACK);
         this.addChild(scoreLabel, 1);
 
-
-
-
         var rank = cc.sys.localStorage.getItem("rank_mine");
         var rank1Img = cc.sys.localStorage.getItem("rank1_img");
         var rank1Score = cc.sys.localStorage.getItem("rank1_score");
