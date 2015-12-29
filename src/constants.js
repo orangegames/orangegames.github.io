@@ -14,43 +14,22 @@ var START_SPEED = 752;
 
 var MAX_SPEED = 920;
 
-var WeChartData = {
-    "appId": "wx735041db0b1acfa8", // 服务号可以填写appId
-    "imgUrl": "http://upyun.cocimg.com/cocoachina/cocos_logo.png",
-    "link": "http://orangegames.github.io",
-    "desc": "hi",
-    "title": "嘟嘟打病毒"
-};
+wx.config({
+    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+    appId: '2', // 必填，公众号的唯一标识
+    timestamp: '', // 必填，生成签名的时间戳
+    nonceStr: '', // 必填，生成签名的随机串
+    signature: '',// 必填，签名，见附录1
+    jsApiList: ["onMenuShareTimeline"] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+});
 
-// 分享的回调
-var WeChartCallbacks = {
-    // 收藏操作是否触发回调，默认是开启的
-    favorite : false,
+wx.ready(function(){
 
-    // 分享操作开始之前
-    ready : function() {
-        // 你可以在这里对分享的数据进行重组
-        alert("准备分享");
-    },
-    // 分享被用户自动取消
-    cancel : function(resp) {
-        // 你可以在你的页面上给用户一个小Tip，为什么要取消呢？
-        alert("分享被取消，msg=" + resp.err_msg);
-    },
-    // 分享失败了
-    fail : function(resp) {
-        // 分享失败了，是不是可以告诉用户：不要紧，可能是网络问题，一会儿再试试？
-        alert("分享失败，msg=" + resp.err_msg);
-    },
-    // 分享成功
-    confirm : function(resp) {
-        // 分享成功了，我们是不是可以做一些分享统计呢？
-        alert("分享成功，msg=" + resp.err_msg);
-    },
-    // 整个分享过程结束
-    all : function(resp,shareTo) {
-        // 如果你做的是一个鼓励用户进行分享的产品，在这里是不是可以给用户一些反馈了？
-        alert("分享" + (shareTo ? "到" + shareTo : "") + "结束，msg=" + resp.err_msg);
-    }
-};
+// config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+});
 
+
+wx.error(function(res){
+
+// config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+});

@@ -148,6 +148,24 @@ var GameOverLayer = cc.LayerColor.extend({
     shareGame: function (sender) {
 
         //WeixinApi.shareToTimeline(WeChartData,WeChartCallbacks);
+
+        var title = "我在对抗病毒的战斗中得到了"+this._score+"分  你行你试试？";
+        var returnUrl = window.location.href;
+        returnUrl = encodeURIComponent(returnUrl);
+
+        var imgURL = "http://a2.mzstatic.com/us/r30/Purple69/v4/5b/42/12/5b4212b5-43e8-795f-905f-b94d8f6e0566/icon175x175.png";
+        imgURL = encodeURIComponent(imgURL);
+        wx.onMenuShareTimeline({
+            title: title, // 分享标题
+            link: returnUrl, // 分享链接
+            imgUrl: imgURL, // 分享图标
+            success: function () {
+// 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+// 用户取消分享后执行的回调函数
+            }
+        });
     }
 });
 

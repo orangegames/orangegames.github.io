@@ -242,10 +242,6 @@ var GameLayer = cc.LayerColor.extend({
         var fuid = cc.sys.localStorage.getItem("fid_key");
 
         //fuid = "111";
-        //var returnUrl = "http://orangegames.github.io/index.html";
-        var returnUrl = window.location.href;
-
-        var returnUrl = encodeURIComponent(returnUrl);
         //var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fuid + "&return_url=" + returnUrl + "&score=" + this._score;
         var requesturl = "http://www.yinshuiyu.com/api/wx_rank?fuid=" + fuid + "&score=" + this._score;
 

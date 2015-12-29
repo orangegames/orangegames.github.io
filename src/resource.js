@@ -25,7 +25,7 @@ var res = {
     clear_ac_plist : "res/clear_ac.plist",
     clear_ac_png : "res/clear_ac.png",
 
-    clear_wav : "res/clear.wav"
+    clear_wav : "res/clear.mp3"
 };
 
 var g_resources = [
