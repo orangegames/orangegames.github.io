@@ -24,8 +24,10 @@ var GameScene = cc.Scene.extend({
         this.requestData();
     },
     requestData : function(){
-
-        var requesturl = "http://www.yinshuiyu.com/api/wx_share?id=2";
+        var returnUrl = window.location.href;
+        returnUrl = encodeURIComponent(returnUrl);
+        alert(location.href.split('#')[0]);
+        var requesturl = "http://www.yinshuiyu.com/api/wx_share?id=2&return_url=" + returnUrl;
         var jsonp=document.createElement("script");
         jsonp.type="text/javascript";
         jsonp.src=requesturl;
