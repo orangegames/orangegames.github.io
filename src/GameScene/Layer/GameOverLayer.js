@@ -158,9 +158,11 @@ var GameOverLayer = cc.LayerColor.extend({
             imgUrl: imgURL, // 分享图标
             success: function () {
 // 用户确认分享后执行的回调函数
+                alert("success");
             },
             cancel: function () {
 // 用户取消分享后执行的回调函数
+                alert("cancel");
             }
         });
     }
