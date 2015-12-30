@@ -25,6 +25,8 @@ var res = {
     clear_ac_plist : "res/clear_ac.plist",
     clear_ac_png : "res/clear_ac.png",
 
+    share_bg_png : "res/share_bg.png",
+
     clear_wav : "res/clear.mp3"
 };
 

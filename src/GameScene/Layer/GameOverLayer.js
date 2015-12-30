@@ -10,6 +10,7 @@ var GameOverLayer = cc.LayerColor.extend({
         this._super(cc.color(255 ,255, 2555, 255), ScreenSize.width, ScreenSize.height);
         this.loadConfig();
         this.loadUI();
+        this.configWecharAPI();
         return true;
     },
     loadConfig : function() {
@@ -144,25 +145,81 @@ var GameOverLayer = cc.LayerColor.extend({
     },
     shareGame: function (sender) {
 
+        var shareLayer  = new ShareLayer();
+        this.addChild(shareLayer, 1000);
+    },
+    configWecharAPI : function (){
         //WeixinApi.shareToTimeline(WeChartData,WeChartCallbacks);
 
         var title = "我在对抗病毒的战斗中得到了"+this._score+"分  你行你试试？";
         var returnUrl = window.location.href;
-        returnUrl = encodeURIComponent(returnUrl);
+        //returnUrl = encodeURIComponent(returnUrl);
 
-        var imgURL = "http://a2.mzstatic.com/us/r30/Purple69/v4/5b/42/12/5b4212b5-43e8-795f-905f-b94d8f6e0566/icon175x175.png";
-        imgURL = encodeURIComponent(imgURL);
+        var imgURL = "http://www.yinshuiyu.com/dudu/res/icon175x175.png";
+
         wx.onMenuShareTimeline({
             title: title, // 分享标题
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {
-// 用户确认分享后执行的回调函数
-                alert("success");
+
             },
             cancel: function () {
-// 用户取消分享后执行的回调函数
-                alert("cancel");
+
+            }
+        });
+
+        wx.onMenuShareAppMessage({
+            title: title, // 分享标题
+            desc: 'desc', // 分享描述
+            link: returnUrl, // 分享链接
+            imgUrl: imgURL, // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+
+        wx.onMenuShareQQ({
+            title: title, // 分享标题
+            desc: '', // 分享描述
+            link: returnUrl, // 分享链接
+            imgUrl: imgURL, // 分享图标
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+
+        wx.onMenuShareWeibo({
+            title: title, // 分享标题
+            desc: '', // 分享描述
+            link: returnUrl, // 分享链接
+            imgUrl: imgURL, // 分享图标
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+
+        wx.onMenuShareQZone({
+            title: title, // 分享标题
+            desc: '', // 分享描述
+            link: returnUrl, // 分享链接
+            imgUrl: imgURL, // 分享图标
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
             }
         });
     }
