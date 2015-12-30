@@ -26,7 +26,8 @@ cc.game.onStart = function(){
 
         //fid = "111";
 
-        var returnUrl = window.location.href;
+        var returnUrl = window.location.href.split('?')[0];
+
         //var returnUrl = "http://orangegames.github.io/index.html";
 
         returnUrl = encodeURIComponent(returnUrl);

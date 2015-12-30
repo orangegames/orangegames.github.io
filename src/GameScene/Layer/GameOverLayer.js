@@ -152,7 +152,9 @@ var GameOverLayer = cc.LayerColor.extend({
         //WeixinApi.shareToTimeline(WeChartData,WeChartCallbacks);
 
         var title = "我在对抗病毒的战斗中得到了"+this._score+"分  你行你试试？";
-        var returnUrl = window.location.href;
+
+        var returnUrl = window.location.href.split('?')[0];
+        //var returnUrl = "http://www.yinshuiyu.com";
         //returnUrl = encodeURIComponent(returnUrl);
 
         var imgURL = "http://www.yinshuiyu.com/dudu/res/icon175x175.png";
@@ -170,8 +172,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareAppMessage({
-            title: title, // 分享标题
-            desc: 'desc', // 分享描述
+            title: '', // 分享标题
+            desc: title, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             type: '', // 分享类型,music、video或link，不填默认为link
@@ -185,8 +187,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareQQ({
-            title: title, // 分享标题
-            desc: '', // 分享描述
+            title: '', // 分享标题
+            desc: title, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {
@@ -198,8 +200,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareWeibo({
-            title: title, // 分享标题
-            desc: '', // 分享描述
+            title: '', // 分享标题
+            desc: title, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {
@@ -211,8 +213,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareQZone({
-            title: title, // 分享标题
-            desc: '', // 分享描述
+            title: '', // 分享标题
+            desc: title, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {

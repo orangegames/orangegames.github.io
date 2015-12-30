@@ -20,7 +20,6 @@ var GameScene = cc.Scene.extend({
 
         this._gameLayer = new GameLayer();
         this.addChild(this._gameLayer, 0);
-
     }
 });
 

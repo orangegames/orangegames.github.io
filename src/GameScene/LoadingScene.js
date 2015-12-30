@@ -112,7 +112,7 @@ cc.LoadingScene = cc.Scene.extend({
     },
 
     requestData : function(){
-        var returnUrl = window.location.href;
+        var returnUrl = window.location.href.split('?')[0];
         returnUrl = encodeURIComponent(returnUrl);
 
         //alert(location.href.split('#')[0]);
@@ -140,7 +140,7 @@ sharejson = function(o) {
     //o=eval(’(’+o+’)’);
 
     wx.config({
-        debug:  o["result"], // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        debug:  false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
         appId:  o["app_id"], // 必填，公众号的唯一标识
         timestamp:  o["timestamp"], // 必填，生成签名的时间戳
         nonceStr: o["noncestr"], // 必填，生成签名的随机串
