@@ -141,7 +141,8 @@ var GameOverLayer = cc.LayerColor.extend({
         cc.director.runScene(new GameScene());
     },
     download: function (sender) {
-
+        var url = "http://dwz.cn/2sRp6o";
+        window.location.href = url;
     },
     shareGame: function (sender) {
 
@@ -151,16 +152,18 @@ var GameOverLayer = cc.LayerColor.extend({
     configWecharAPI : function (){
         //WeixinApi.shareToTimeline(WeChartData,WeChartCallbacks);
 
-        var title = "我在对抗病毒的战斗中得到了"+this._score+"分  你行你试试？";
+
+        var title = "这个游戏我已经玩儿上瘾了 你也来试一试八";
+        var desc = "我在对抗病毒的战斗中得到了"+this._score+"分  你行你试试？";
 
         var returnUrl = window.location.href.split('?')[0];
         //var returnUrl = "http://www.yinshuiyu.com";
         //returnUrl = encodeURIComponent(returnUrl);
 
-        var imgURL = "http://www.yinshuiyu.com/dudu/res/icon175x175.png";
+        var imgURL = "http://www.yinshuiyu.com/dudu/170%C2%B7170.png";
 
         wx.onMenuShareTimeline({
-            title: title, // 分享标题
+            title: desc, // 分享标题
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {
@@ -172,8 +175,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareAppMessage({
-            title: '', // 分享标题
-            desc: title, // 分享描述
+            title: title, // 分享标题
+            desc: desc, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             type: '', // 分享类型,music、video或link，不填默认为link
@@ -187,8 +190,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareQQ({
-            title: '', // 分享标题
-            desc: title, // 分享描述
+            title: title, // 分享标题
+            desc: desc, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {
@@ -200,8 +203,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareWeibo({
-            title: '', // 分享标题
-            desc: title, // 分享描述
+            title: title, // 分享标题
+            desc: desc, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {
@@ -213,8 +216,8 @@ var GameOverLayer = cc.LayerColor.extend({
         });
 
         wx.onMenuShareQZone({
-            title: '', // 分享标题
-            desc: title, // 分享描述
+            title: title, // 分享标题
+            desc: desc, // 分享描述
             link: returnUrl, // 分享链接
             imgUrl: imgURL, // 分享图标
             success: function () {

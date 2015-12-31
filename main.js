@@ -41,6 +41,7 @@ cc.game.onStart = function(){
 
         if(sys.os === sys.OS_IOS || sys.os === sys.OS_OSX){
 
+
             cc.view.enableRetina(true);
 
         }else{
@@ -56,7 +57,7 @@ cc.game.onStart = function(){
         // Adjust viewport meta
         cc.view.adjustViewPort(true);
         // Setup the resolution policy and design resolution size
-        cc.view.setDesignResolutionSize(ScreenSize.width, ScreenSize.height, cc.ResolutionPolicy.SHOW_ALL);
+        cc.view.setDesignResolutionSize(ScreenSize.width, ScreenSize.height, cc.ResolutionPolicy.EXACT_FIT);
         // The game will be resized when browser size change
         cc.view.resizeWithBrowserSize(true);
         //load resources
